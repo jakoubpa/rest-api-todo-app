@@ -49,7 +49,9 @@ npm start
 ### MySQL Database
 1. **Install and configure MySQL as per your operating system.**
 2. **Insert roles into database**
-   Before creating a new user, you need to insert roles into the roles table. This can be achieved for example with simple SQL query:
+
+
+   Before creating a new user, you need to insert roles into the roles table. This can be done with simple SQL query:
    ```
    INSERT INTO roles(name) VALUES('ROLE_USER');
    INSERT INTO roles(name) VALUES('ROLE_ADMIN');
